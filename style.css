@@ -1,0 +1,38 @@
+/*index*/
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:azure;
+    background-color: darkblue;
+    font-size: 20px;
+
+}
+/*header*/
+.title1{
+    
+    color: rgb(140, 140, 246);
+
+}
+ul{
+    background-color: rgb(25, 103, 247);
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    margin: auto;
+    align-content: center;
+    
+    
+    
+}
+li{
+    padding: 10px;
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    background-color: blue;
+    color: aliceblue;
+}
