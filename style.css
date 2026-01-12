@@ -1,7 +1,7 @@
 /*index*/
 body{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(166, 214, 214);
     background-color: darkblue;
     font-size: 20px;
 
@@ -18,14 +18,13 @@ ul{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 20px;
     margin: auto;
-    align-content: center;
-    
-    
-    
+     display: flex;
+   
 }
 li{
     padding: 10px;
-    float: left;
+    float: center;
+
 }
 
 a{
@@ -36,4 +35,21 @@ a:hover{
     background-color: blue;
     color: aliceblue;
     
+}
+/*body*/
+main{
+    width:auto;
+    text-align:auto;
+    margin:auto, 100px, auto, 100px;
+
+}
+/*week3*/
+.flex-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.flex-img{
+    width: 400px;
 }
